@@ -43,6 +43,7 @@ const dpi_list mouse_dpi_list[] = {
 const device_desc models[] = {
     // Keyboards
     { V_CORSAIR, P_K55, },
+    { V_CORSAIR, P_K60, },
     { V_CORSAIR, P_K63_NRGB, },
     { V_CORSAIR, P_K63_NRGB_WL, },
     { V_CORSAIR, P_K63_NRGB_WL2, },
@@ -188,7 +189,9 @@ const char* product_str(ushort product){
     if(product == P_K66)
         return "k66";
     if(product == P_K63_NRGB || product == P_K63_NRGB_WL || product == P_K63_NRGB_WL2 || product == P_K63_NRGB_WL3 || product == P_K63_NRGB_WL4)
-        return "k63";
+        return "k63";    
+    if(product == P_K60)
+        return "k60";
     if(product == P_K57_U || product == P_K57_D)
         return "k57_wireless";
     if(product == P_K55)
