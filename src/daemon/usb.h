@@ -48,6 +48,8 @@
 #define P_K57_D              0x1b62
 #define P_K57_U              0x1b6e
 
+#define P_K60                0x1ba0
+
 #define P_K63_NRGB           0x1b40
 #define P_K63_NRGB_WL        0x1b45 /* wireless */
 #define P_K63_NRGB_WL2       0x1b50 /* wireless */
