@@ -49,6 +49,7 @@
 #define P_K57_U              0x1b6e
 
 #define P_K60                0x1ba0
+#define IS_K60(kb)           ((kb)->vendor == V_CORSAIR && ((kb)->product == P_K60)
 
 #define P_K63_NRGB           0x1b40
 #define P_K63_NRGB_WL        0x1b45 /* wireless */
